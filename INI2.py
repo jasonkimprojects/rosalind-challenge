@@ -11,6 +11,7 @@ def main():
     leg_a = int(nums[0])
     leg_b = int(nums[1])
     print(leg_a**2 + leg_b**2)
+    file.close()
     return
 
 

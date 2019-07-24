@@ -15,6 +15,7 @@ def main():
         if num % 2 == 1:
             total += num
     print(total)
+    file.close()
     return
 
 

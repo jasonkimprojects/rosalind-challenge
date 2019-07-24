@@ -15,6 +15,7 @@ def main():
     start_second = int(indices[2])
     end_second = int(indices[3]) + 1
     print(msg[start_first:end_first] + ' ' + msg[start_second:end_second])
+    file.close()
     return
 
 

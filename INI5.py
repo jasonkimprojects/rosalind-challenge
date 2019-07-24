@@ -1,12 +1,20 @@
 # Copyright 2019 Jason Kim. All rights reserved.
-# <filename = Problem ID>
-# My solution to <Problem ID> of the Rosalind Project.
+# INI5.py
+# My solution to INI5 of the Rosalind Project.
 # Jason Kim
-# <today's date>
+# 7/23/2019
 
 
 def main():
-    # My code here
+    file_in = open("rosalind_ini5.txt", "r")
+    file_out = open("rosalind_ini5_out.txt", "w+")
+    count = 1
+    for line in file_in:
+        if count % 2 == 0:
+            file_out.write(line)
+        count += 1
+    file_in.close()
+    file_out.close()
     return
 
 
