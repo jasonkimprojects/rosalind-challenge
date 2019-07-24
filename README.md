@@ -1,4 +1,4 @@
 # Rosalind Challenge
 This repository contains my solutions, written in Python, to the [Rosalind Project.](http://rosalind.info/problems/locations/)  
 
-Rosalind is a platform for learning bioinformatics, and they have a problem set named the Bioinformatics Stronghold which consists of 285 coding problems. Visit the link above to their website for more information.
+Rosalind is a platform for learning bioinformatics; visit the link above to their website for more information. Most of their coding questions are from the Python Village and Bioinformatics Stronghold pages, which I intend to complete in my free time over the summer as an exercise for programming with closer ties to biology.
