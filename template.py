@@ -6,6 +6,8 @@
 
 
 def main():
+    file = open("rosalind_<Problem ID>.txt", "r")
+    file.close()
     # My code here
     return
 
